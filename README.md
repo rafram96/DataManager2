@@ -15,7 +15,7 @@ Los paneles solares están formados por varias celdas conectadas en serie y en p
 ## Modelo Eléctrico de la Celda  
 El comportamiento eléctrico se modela con la **ecuación del diodo**:  
 
-`I = I_L - I_0 ( e^{(qV/nkT)} - 1 )`  
+![image](https://github.com/user-attachments/assets/9caefe99-7674-44ad-bf5e-565c56484854)
 
 **Donde:**  
 - `I`: Corriente de salida.  
@@ -27,7 +27,7 @@ El comportamiento eléctrico se modela con la **ecuación del diodo**:
 - `k`: Constante de Boltzmann.  
 - `T`: Temperatura de la celda.  
 
-La eficiencia de la celda disminuye con el aumento de la temperatura porque afecta tanto la corriente como el voltaje, lo que reduce la potencia generada (`P = V * I`).  
+La eficiencia de la celda disminuye con el aumento de la temperatura porque afecta tanto la corriente como el voltaje, lo que reduce la potencia generada (![image](https://github.com/user-attachments/assets/d027bd56-86b1-44d3-8530-1813f3c9a61b)).  
 
 ---
 
@@ -37,7 +37,7 @@ La energía térmica se disipa mediante tres mecanismos: **conducción**, **conv
 ### 1. Conducción  
 Proceso en el que el calor fluye dentro de un material sólido debido a la interacción entre partículas. Se describe mediante la **Ley de Fourier**:  
 
-`q = -k ∇T`  
+![image](https://github.com/user-attachments/assets/5e307ebb-57b0-404c-953a-9bdb2a533de4) 
 
 **Donde:**  
 - `k`: Conductividad térmica.  
@@ -48,7 +48,7 @@ En el contexto de paneles solares, la conducción se da principalmente en las ca
 ### 2. Convección  
 Ocurre en líquidos o gases y depende del movimiento de masas de fluido. La **ley de enfriamiento de Newton** la describe:  
 
-`q_conv = h * ΔT`  
+![image](https://github.com/user-attachments/assets/1de882f2-4884-40ba-9b29-b4c24446149c)  
 
 **Donde:**  
 - `h`: Coeficiente de convección.  
@@ -59,7 +59,7 @@ En paneles solares, la convección ocurre en el aire que rodea al panel.
 ### 3. Radiación  
 Es la energía emitida por un cuerpo en forma de ondas electromagnéticas. Se modela con la **Ley de Stefan-Boltzmann**:  
 
-`q_rad = εσ (T_s^4 - T_∞^4)`  
+![image](https://github.com/user-attachments/assets/1a76364d-679b-4556-b04c-1f0be619f8db)  
 
 **Donde:**  
 - `ε`: Emisividad del material.  
@@ -83,7 +83,7 @@ Los disipadores pasivos son más comunes en paneles solares debido a su bajo cos
 ## Modelo Matemático y Ecuación Diferencial  
 El comportamiento térmico en las aletas de los disipadores se modela con una **ecuación diferencial de segundo orden** basada en el balance energético:  
 
-`T'' - T (2h/k_e + 2εσ/k_e (F_10 m_0 + F_1∞ m_∞)) + T_∞ (2h/k_e + 2F_1∞ εσm_∞/k_e) + T_0 (2F_10 εσm_0/k_e) = 0`  
+![image](https://github.com/user-attachments/assets/c347e3e2-4e92-4fd4-9ae4-3a869862500a)  
 
 Esta ecuación considera los efectos combinados de conducción, convección y radiación, permitiendo predecir la distribución de temperatura y optimizar el diseño de los disipadores.  
 
