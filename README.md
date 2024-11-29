@@ -79,6 +79,18 @@ Los disipadores ayudan a mantener la temperatura de los paneles solares bajo con
 Los disipadores pasivos son más comunes en paneles solares debido a su bajo costo y facilidad de mantenimiento.  
 
 ---
+z
+---
+z
+---
+z
+---
+z
+---
+z
+---
+z
+---
 
 ## Modelo Matemático y Ecuación Diferencial  
 El comportamiento térmico en las aletas de los disipadores se modela con una **ecuación diferencial de segundo orden** basada en el balance energético:  
